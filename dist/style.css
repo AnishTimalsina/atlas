@@ -1,0 +1,35 @@
+h2 {
+  color: purple;
+}
+
+p {
+  color: #ab40d0;
+}
+
+ul {
+  border: 5px solid orange;
+}
+
+ol {
+ border: 5px solid purple;
+}
+
+ol, ul {
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 1rem;
+  margin: 0;
+  color: green;
+}
+
+dd {
+  color: #706d50;
+}
+
+dt {
+  font-weight: bold;
+  color: red;
+}
