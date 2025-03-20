@@ -158,4 +158,7 @@ main {
   flex-wrap: wrap;
 }
 
+.content {
+    flex: 1; 
+}
 
