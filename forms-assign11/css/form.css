@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+/* form styling */
+
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+div#formcol1 {
+	float:left;	
+	width: 100%;
+}
+
+label {
+	margin-right: .3em;
+	width: 6.3em;
+	display: inline-block;
+	text-align: right; 
+}
+
+#formcol1 li {
+	list-style:none;
+}
+
+#formcol1 input.reqfield {
+	background:#FF9;
+}
+
+select:focus, select:active, 
+input:focus, input:active, 
+input:focus + label, input:active + label, 
+label[for]:focus, label[for]:active {
+	color: #FFF !important;
+	background-color: #BB3D2F !important;
+}
+
+fieldset {
+	border: 1px solid #ddd;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+legend {
+	font-weight: bold;
+	padding: 0 0.5em;
+}
+
+label[for="fstspkr1"]::after,
+label[for="lstname1"]::after,
+label[for="address1"]::after {
+	content: " *";
+	color: red;
+}
+
+#multchoice p {
+	margin: 1em 0;
+}
+
+
+#multchoice span {
+	margin-right: 1em; 
+	display: inline-flex; 
+	align-items: center; 
+}
+  
+  
+#multchoice input[type="radio"] {
+	margin-right: 0.5em; 
+}
+  
+ 
+#multchoice label {
+	width: auto; 
+	text-align: left; 
+	margin-right: 0; 
+}
+
+
+/* end of form css */
+	
